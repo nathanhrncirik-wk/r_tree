@@ -2,6 +2,7 @@ language: dart
 dart:
   - stable
 before_install:
+  - echo "hackertest"
   - ./pub2get.sh
 script:
   - pub run dart_dev format --check
